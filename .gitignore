@@ -1,5 +1,4 @@
-bot.ini
-Dockerfile
+configs/
 pyproject.toml
 migrations/
 __pycache__/
