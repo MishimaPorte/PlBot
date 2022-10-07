@@ -2,10 +2,10 @@ from tortoise import Tortoise
 from configparser import ConfigParser
 from bot import dispatcher
 import asyncio
-import commands
+import commands as commands
 
 config = ConfigParser()
-config.read("bot.ini")
+config.read("configs/bot.ini")
 
 tort = {
     "connections": {

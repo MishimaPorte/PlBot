@@ -1,6 +1,3 @@
-from email.policy import default
-from enum import unique
-from pyexpat import model
 from tortoise.models import Model
 from tortoise.fields import (
     BigIntField,

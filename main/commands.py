@@ -1,9 +1,8 @@
-from operator import mod
 from bot import dispatcher, bot
 from aiogram.types import Message, CallbackQuery
 from aiogram.dispatcher import FSMContext
 from aiogram.types.message import ContentTypes
-from aiogram.types.input_media import MediaGroup, InputMediaAudio
+from aiogram.types.input_media import InputMediaAudio
 from models import TgUser, Audio, Playlist, Shared
 from tortoise.exceptions import IntegrityError
 from utils import create_inline_keyboard, create_inline_keyboard_shares
